@@ -1,0 +1,53 @@
+.searchSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    .inputBar {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding: 7px 10px;
+        border-radius: 50px;
+
+        .icon {
+            font-size: 1.5rem;
+        } 
+        input {
+            width: 80%;
+            padding: 5px 10px;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .selectBar {
+        position: relative;
+        // overflow: hidden;
+        select {
+            width: 200px;
+            padding: .8rem 2rem; 
+            appearance: none;
+            border-radius: 50px;
+            border: none;
+            overflow: hidden;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: grid;
+            place-items: center;
+            height: 100%;
+            width: 3rem;
+            background-color: transparent;
+            pointer-events: none;
+        }
+    }
+}

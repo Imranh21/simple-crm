@@ -1,0 +1,32 @@
+.newBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 0;
+
+    .btn {
+        // width: 120px;
+        padding: 6px 10px;
+        background: rgb(210, 242, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        border: 2px solid rgb(96, 210, 255);
+        cursor: pointer;
+        color: rgb(0, 155, 216);
+
+        .icon {
+            // background: rgb(208, 255, 199);
+            display: grid;
+            place-items: center;
+            // margin-right: 5px;
+            padding: 5px;
+            border-radius: 50px;
+
+        }
+        p {
+            font-size: 16px;
+            
+        }
+    }
+}
